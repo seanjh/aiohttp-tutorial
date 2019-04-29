@@ -1,0 +1,24 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+isort = "*"
+flake8 = "*"
+pylint = "*"
+
+[packages]
+aiohttp = "*"
+cchardet = "*"
+aiodns = "*"
+attrs = "*"
+alembic = "*"
+python-dateutil = "*"
+sqlalchemy = "*"
+aiopg = {extras = ["sa"],version = "*"}
+pyyaml = "*"
+aiohttp-jinja2 = "*"
+
+[requires]
+python_version = "3.7"

@@ -1,0 +1,10 @@
+version: "3"
+services:
+  db:
+    image: postgres:11
+    ports:
+      - '5432:5432'
+    environment:
+      POSTGRES_USER: aiohttpdemo_user
+      POSTGRES_PASSWORD: aiohttpdemo_pass
+      POSTGRES_DB: aiohttpdemo_polls
